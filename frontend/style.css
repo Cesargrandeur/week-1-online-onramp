@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+img {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.flex {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 100%;
+  box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+.flex a {
+  text-decoration: none;
+  color: black;
+}
+
+.navTab {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-inline: 2em;
+}
+.navTab :not(:first-child) {
+  color: rgb(107, 105, 105);
+}
+
+.navImg {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  gap: 1rem;
+  padding-inline: 2em;
+}
+
+main {
+  width: 68%;
+  margin: 3.5rem auto;
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  gap: 9rem;
+  padding: 2em;
+}
+
+.container #mainIm {
+  width: 110%;
+  height: 150%;
+  border-radius: 10px;
+}
+
+.img-flex {
+  margin-top: 2rem;
+  display: flex;
+  max-width: 100%;
+  gap: 2em;
+}
+
+.img-flex img {
+  width: 22%;
+  border-radius: 10px;
+}
+
+.uppercase {
+  margin: 2rem 0;
+  font-size: 0.8rem;
+  color: rgb(241, 72, 11);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.space {
+  margin-top: 2rem;
+}
+.fif {
+  color: rgb(241, 72, 11);
+  font-size: 0.5em;
+  margin: 1rem;
+  padding: 0.2em;
+  background-color: rgb(226, 225, 225);
+  border-radius: 4px;
+}
+
+.twi {
+  font-size: small;
+  margin-top: 4 rem;
+  color: rgb(107, 105, 105);
+}
+
+button {
+  margin: 2rem 0;
+}
+
+.buttonEl2 {
+  padding: 0.3rem 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttonEl {
+  margin-left: 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(241, 72, 11);
+  padding: 0.8rem 2rem;
+}

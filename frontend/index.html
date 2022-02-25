@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Week-1-Task</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>E-commerce product page</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="flex">
+          <div class="navTab">
+            <a href="#">
+              <h3>sneakers</h3>
+            </a>
+            <a href="#">Collections</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="navImg">
+            <a href="#"><img src="./images/icon-cart.svg" /></a>
+            <a href="#" id="avatar"><img src="./images/image-avatar.png" /></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div>
+        <div><img src="./images/image-product-1.jpg" id="mainIm" /></div>
+        <div class="img-flex">
+          <img src="./images/image-product-2-thumbnail.jpg" />
+          <img src="./images/image-product-3-thumbnail.jpg" />
+          <img src="./images/image-product-4-thumbnail.jpg" />
+          <img src="./images/image-product-1-thumbnail.jpg" />
+        </div>
+      </div>
+
+      <div>
+        <p class="uppercase">Sneaker Company</p>
+        <h1 class="space">Fall Limited Edition Sneakers</h1>
+        <p class="space">
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </p>
+        <h2 class="space">$125.00 <span class="fif"> 50%</span></h2>
+        <span class="twi"> $250.00</span>
+
+        <div class="button">
+          <button class="buttonEl2">
+            <img src="./images/icon-minus.svg" /> 0
+            <img src="./images/icon-plus.svg" />
+          </button>
+          <button class="buttonEl">
+            <img src="./images/icon-cart.svg" /> Add to cart
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
